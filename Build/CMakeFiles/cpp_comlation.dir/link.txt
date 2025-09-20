@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cpp_comlation.dir/src/system_start_SWC/main.cpp.o -o cpp_comlation  -Wl,-rpath,/home/oshawky/Cplus_trials/Build/src/Calc_SWC:/home/oshawky/Cplus_trials/Build/src/print_swc:/home/oshawky/Cplus_trials/Build/src/name_space_swc src/Calc_SWC/libCalc_SWC.so src/print_swc/libprint_swc.so src/name_space_swc/libname_space_swc.so 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libname_space_swc.so -o libname_space_swc.so CMakeFiles/name_space_swc.dir/name_space_swc.cpp.o 

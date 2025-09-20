@@ -1,0 +1,12 @@
+/home/oshawky/Cplus_trials/Build/CMakeFiles/cpp_comlation.dir
+/home/oshawky/Cplus_trials/Build/CMakeFiles/edit_cache.dir
+/home/oshawky/Cplus_trials/Build/CMakeFiles/rebuild_cache.dir
+/home/oshawky/Cplus_trials/Build/src/Calc_SWC/CMakeFiles/Calc_SWC.dir
+/home/oshawky/Cplus_trials/Build/src/Calc_SWC/CMakeFiles/edit_cache.dir
+/home/oshawky/Cplus_trials/Build/src/Calc_SWC/CMakeFiles/rebuild_cache.dir
+/home/oshawky/Cplus_trials/Build/src/print_swc/CMakeFiles/print_swc.dir
+/home/oshawky/Cplus_trials/Build/src/print_swc/CMakeFiles/edit_cache.dir
+/home/oshawky/Cplus_trials/Build/src/print_swc/CMakeFiles/rebuild_cache.dir
+/home/oshawky/Cplus_trials/Build/src/name_space_swc/CMakeFiles/name_space_swc.dir
+/home/oshawky/Cplus_trials/Build/src/name_space_swc/CMakeFiles/edit_cache.dir
+/home/oshawky/Cplus_trials/Build/src/name_space_swc/CMakeFiles/rebuild_cache.dir
