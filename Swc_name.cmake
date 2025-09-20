@@ -16,3 +16,7 @@ set (main ${Root_Dir}/src/system_start_SWC/main.cpp)
 
 set(print_swc ${Root_Dir}/src/print_swc/)
 
+# Below a path for the name_space_swc relative to the Root_Dir 
+
+set(name_space_swc ${Root_Dir}/src/name_space_swc/)
+

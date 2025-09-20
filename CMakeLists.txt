@@ -17,6 +17,7 @@ include(linked_libs.cmake)
 # Now we will try the methdology of compiling each SWC alone and make them as a tatic lib then link them all to the main and make an exutable 
 add_subdirectory(${CALC_SWC})
 add_subdirectory(${print_swc})
+add_subdirectory(${name_space_swc})
 
 message ("The Root_Dir as a Camke varible will be = " ${Root_Dir})
 message ("\n Here is the List of the staticaly Linked libs to the main.cpp " ${Linked_libs}"\n")
