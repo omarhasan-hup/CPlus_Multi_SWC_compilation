@@ -16,3 +16,6 @@ set (main ${Root_Dir}/src/system_start_SWC/main.cpp)
 
 set(print_swc ${Root_Dir}/src/print_swc/)
 
+
+# Set the path to the FreeRTOS kernel submodule
+set(FREERTOS_KERNEL_PATH ${Root_Dir}/src/FreeRTOS/)
