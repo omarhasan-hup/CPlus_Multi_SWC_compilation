@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cpp_compilation.dir/src/system_start_SWC/main.cpp.o -o cpp_compilation  -Wl,-rpath,/home/oshawky/Cplus_trials/build/src/Calc_SWC:/home/oshawky/Cplus_trials/build/src/print_swc src/Calc_SWC/libCalc_SWC.so src/print_swc/libprint_swc.so src/FreeRTOS/FreeRTOS-Kernel/libfreertos_kernel.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libCalc_SWC.so -o libCalc_SWC.so CMakeFiles/Calc_SWC.dir/calc.cpp.o 
