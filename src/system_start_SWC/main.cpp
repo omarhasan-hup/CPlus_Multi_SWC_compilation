@@ -27,11 +27,30 @@
  */
 
 #include <iostream>
+#include <unistd.h> // Required for usleep()
 
 // FreeRTOS kernel includes
 #include "FreeRTOS.h"
 #include "task.h"
 
+
+/**
+ * @brief This hook is called by the idle task when it is scheduled.
+ *
+ * In the POSIX port, the FreeRTOS scheduler can starve other pthreads on the system,
+ * including the thread that simulates the tick interrupt. To prevent this, we
+ * introduce a small sleep in the idle hook. This yields the CPU back to the OS,
+ * allowing the tick thread to run.
+ *
+ * This function's implementation is required because configUSE_IDLE_HOOK is set to 1
+ * in FreeRTOSConfig.h.
+ */
+extern "C" void vApplicationIdleHook(void)
+{
+    // Sleep for a short period to allow other threads to run.
+    // 100 microseconds is a reasonable value.
+    usleep(100);
+}
 /**
  * @brief The function that will be executed by each task.
  *
@@ -94,10 +113,5 @@ int main()
      * memory available for the idle and/or timer tasks to be created.
      * See http://www.freertos.org/a00111.html
      */
-    for (;;)
-    {
-        // This loop will not be executed.
-    }
-
     return 0; // Should not be reached.
 }
